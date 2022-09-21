@@ -1,0 +1,22 @@
+https://www.hackerrank.com/challenges/c-tutorial-strings/submissions/code/291832098
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	// Complete the program
+  string a,b;
+  cin>>a>>b;
+  int len=a.size();
+  int leng=b.size();
+  string c=a+b;
+  cout<<len<<' '<<leng<<endl;
+  cout<<c<<endl;
+  char A=a[0];
+  char B=b[0];
+  a[0]=B;
+  b[0]=A;
+  cout<<a<<' '<<b<<endl;
+  
+    return 0;
+}
